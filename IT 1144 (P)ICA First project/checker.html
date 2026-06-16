@@ -1,0 +1,47 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Password Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <h1>🛡️ CyberNet</h1>
+    <h3>Password Strength Checker</h3>
+</div>
+
+<nav class="nav-bar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="PhishingChecker.html">URL Checker</a></li>
+        <li><a href="tips.html">Security Tips</a></li>
+    </ul>
+</nav>
+
+<div class="password-section">
+
+    <h2>🔐 Check Your Password</h2>
+
+    <input type="password"
+           id="password"
+           placeholder="Enter your password">
+
+    <br><br>
+
+    <button onclick="checkPassword()">
+        Check Password
+    </button>
+
+    <h3 id="result"></h3>
+
+    <div id="suggestions"></div>
+	
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

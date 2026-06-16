@@ -1,0 +1,205 @@
+
+*box sizing{border-box; margin:0;padding:0;}
+body{
+        background-color:#0d1117;
+		}
+		
+		
+.header{
+	    color:#16f47d;
+		text-align:center;
+		background-color:#161b22;
+		border-radius:20px;
+		margin-bottom:20px;
+		position:sticky;
+		top:0px;
+		padding:20px;
+		
+		
+		}
+		
+.btn button{ 
+           position:absolute;
+            top:20px;
+           right:20px;
+		   background-color:#061607;
+		   color:white;
+		   border-radius:20px;
+		   
+		   
+		   
+           }
+		   
+	  
+.nav-bar ul{
+	  justify-content:space-between;
+	  display:flex;
+	  gap:50px;
+	  align-items:center;
+	  background-color:black;
+	  padding:20px;
+	  border-radius:20px;
+	  list-style:none;
+	 
+	  
+           }
+	 
+.nav-bar a{
+	   color:white;
+	   text-decoration:none;
+	   margin:100px;
+	   
+	   
+}
+a:hover{
+        color:  green;
+		 box-shadow:0 0 10px #00ff99;
+		 padding:15px;
+		 border-radius:20px;
+       }		
+	 
+.slider{
+    width:100%;
+    height:500px;
+    position:relative;
+    overflow:hidden;
+        }
+
+.slide{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    position:absolute;
+    opacity:0;
+    transition:1s;
+        }
+
+.slide.active{
+    opacity:1;
+       }
+
+	
+.info p{text-align:center;
+	    font-size:20px;
+        color:white;
+		border:2px solid #22dd80 ;
+		box-shadow:0 0 10px #00ff99;
+        }		
+
+.footer{text-align:center;
+        color:#16f47d;
+		background-color:#161b22;
+		
+           }
+/*password cheacker*/
+#suggestions li{
+                color:#7fffcc;
+				list-style:none;
+				
+               }
+#suggestions h4,p{
+                color:#fc3f3f;
+               }
+.password-section{
+	            color:#7fffcc;
+	            text-align:center;
+	            margin-top:100px;
+		 		border:2px solid #22dd80 ;
+		        box-shadow:0 0 10px #00ff99;
+				background:#161b22;
+                border-radius:20px;
+               }
+                    }
+.password-section h2{
+	                color:#16f47d;
+                      }
+.pwd-header{
+	        color:#7fffcc;
+                }
+.main{
+	   text-align:center;
+	   margin:200px;
+      }
+	  
+	  
+	  
+/*phishing part*/  
+.header{
+    background-color:#161b22;
+    color:#16f47d;
+    text-align:center;
+    padding:20px;
+    border-radius:20px;
+    margin-bottom:40px;
+}
+
+.url-section{
+    width:500px;
+    margin:auto;
+    text-align:center;
+    background:#161b22;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 15px #16f47d;
+}
+
+.url-section h2{
+    color:#16f47d;
+    margin-bottom:20px;
+}
+
+#urlInput{
+    width:90%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+}
+
+#urlInput:focus{
+    box-shadow:0 0 10px #16f47d;
+}
+
+button{
+    background:#16f47d;
+    color:black;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    transition:0.3s;
+}
+
+#result{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+      
+/*Security tips section*/
+
+.tips-section{
+    width:80%;
+    margin:50px auto;
+    padding:30px;
+    background:#161b22;
+    color:white;
+    border-radius:20px;
+    box-shadow:0 0 15px #00ff99;
+}
+
+.tips-section h2{
+    text-align:center;
+    color:#16f47d;
+    margin-bottom:20px;
+}
+
+.tips-section li{
+    margin:15px 0;
+    font-size:18px;
+}
